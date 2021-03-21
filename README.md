@@ -1,5 +1,10 @@
 # Backup / Copy template: Porteus hh rootcopy folder
 
+This repo demonstrates a schema for maintaining a rootcopy folder.
+
+
+## Porteus rootcopy folder
+
 [Porteus] offers a special *writable* folder "[rootcopy]" whose contents are copied to the *read-only* live system at each boot up - it allows you to enhance and adjust your system without the danger of destroying it since in case you could just erase the whole rootcopy content (out of a [Porteus' "Always fresh" mode]) to get back a virgin system.
 
 
