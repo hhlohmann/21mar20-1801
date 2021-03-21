@@ -1,0 +1,8 @@
+[user]
+	email = hhlohmann@yahoo.com
+	name = hhlohmann
+[core]
+	pager = more
+	editor = mousepad 2>/dev/null
+[init]
+	defaultbranch = export
