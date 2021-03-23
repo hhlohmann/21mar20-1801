@@ -3,6 +3,6 @@
 	name = hhlohmann
 [core]
 	pager = more
-	editor = mousepad 2>/dev/null
+	editor = mousepad --disable-server 2>/dev/null
 [init]
 	defaultbranch = export
