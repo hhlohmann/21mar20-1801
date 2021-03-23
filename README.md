@@ -34,7 +34,7 @@ For ease of operations on content for rootcopy without intermingling repo manage
 
 Since rootcopy contents generally should be rather smalĺ, a brute force full copy of the whole rootcopy folder is legit. Otherwise rsync is the obvious solution, using these parameters at Porteus runtime:
 
-`rsync --recursive --delete --links --checksum --verbose $PORTDIR/rootcopy/ rootcopy/`
+`rsync --recursive --delete --links --checksum --verbose rootcopy/ $PORTDIR/rootcopy/`
 
 > add `--dry-run` for preceding test
 
