@@ -1,3 +1,10 @@
-@50% +#21mar23-639 Add git-completion
+@50%
 
-- -#21mar13-939 i Tab key autocomplete for Git commands
++#21mar23-949 U Git settings: core.editor: Mousepad in new instance
+  - -#21mar23-940 i Using existing instance immediately closes the process Git is watching 
+    - -#21mar23-941 i So that Git has to think that Editing has been cancelled
+  - -#21mar23-942 i No explicit "new instance" switch, but "--disable-server" seems to do what is wanted
++#21mar23-639 C Add git-completion
+  - -#21mar23-939 i Tab key autocomplete for Git commands
+
+()
