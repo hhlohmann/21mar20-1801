@@ -18,3 +18,4 @@ if [ -n "$DESKTOP_SESSION" ];then
 fi
 
 . ~/.config/git/git-completion.bash
+export TZ=Europe/Berlin
