@@ -1,12 +1,6 @@
-@50% -#21mar29-1826 C @100% Check: tweak in general profile template?
+@50% -#21mar29-1612 C @10% Decide: only for first / main Workspace or for all?
 
-- -#21mar29-1827 I Porteus is fixed on exactly one user and therefore has no user template
-
-
-
-# -#21mar29-1612 C @10% Decide: only for first / main Workspace or for all?
-
-- -#21mar29-1612 C @10% Check: file already existing?
+-#21mar29-1612 C @10% Check: file already existing?
   - -#21mar29-1613 C @10% In case: how to set just value in existing file?
     - -#21mar29-1710 C @10% Jekgit?
 
