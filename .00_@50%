@@ -1,6 +1,19 @@
-@50% - -#21mar29-1611 C @50% Determine related Xfce settings file with desktop background image setting
+@50% - -#21mar29-1611 C @100% Determine related Xfce settings file with desktop background image setting
 
-- -#21mar29-1612 C @10% Copy related Xfce settings file to respective rootcopy path
+- -#21mar29-1705 C @100% Settings file: ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+  - -#21mar29-1656 i Method: Change background image and check immediately after with "find" which files have changed
 
+
+-#21mar29-1826 C @10% Check: tweak in general profile template?
+
+  - -#21mar29-1827 I Porteus is fixed on exactly one user and therefore has no user template
+
+-#21mar29-1612 C @10% Decide: only for first / main Workspace or for all?
+
+- -#21mar29-1612 C @10% Check: file already existing?
+  - -#21mar29-1613 C @10% In case: how to set just value in existing file?
+    - -#21mar29-1710 C @10% Jekgit?
+
+-#21mar29-1612 C @10% Copy related Xfce settings file to respective rootcopy path
 
 ()
