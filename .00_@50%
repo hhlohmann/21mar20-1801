@@ -1,0 +1,7 @@
+@50% 21apr3-1927_C-Folder-qsb-for-shared-function-modules
+
+- -#21apr3-1928 i Empty creation not possible since Git stores no empty folders
+  - -#21apr3-1929 i Git stores only files and with these their path
+- -#21apr3-1930 C @100% Extract already common "exitShowSyntax" as a first qb
+
+()

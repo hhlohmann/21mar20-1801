@@ -1,0 +1,8 @@
+#
+
+exitShowSyntax() {
+  showSyntax
+  exit
+}
+
+# ()
