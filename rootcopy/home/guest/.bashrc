@@ -20,3 +20,4 @@ fi
 . ~/.config/git/git-completion.bash
 export TZ=Europe/Berlin
 alias diff='diff --color=always'
+setterm -inversescreen on
