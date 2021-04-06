@@ -9,7 +9,7 @@ for y in /etc/profile.d/*.sh ; do [ -x $y ] && . $y; done
 unset y
 
 # Setup shell prompt for root <wread and fanthom>
-PS1='\[\033[01;32m\]\u@\h:\[\033[01;32m\]\w\$\[\033[00m\] '
+PS1='\n\[\033[01;32m\]\u@\h:\[\033[01;32m\]\w\n >\[\033[00m\] '
 PS2='> '
 
 if [ -n "$DESKTOP_SESSION" ];then
