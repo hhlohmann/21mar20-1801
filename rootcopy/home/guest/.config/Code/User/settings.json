@@ -3,5 +3,8 @@
     "editor.wordWrap": "bounded",
     "workbench.colorTheme": "Default Light+",
     "workbench.iconTheme": "vs-minimal",
-    "editor.wrappingIndent": "indent"
+    "editor.wrappingIndent": "indent",
+    "editor.wordBasedSuggestionsMode": "allDocuments",
+    "editor.tabCompletion": "on",
+    "editor.quickSuggestionsDelay": 0,
 }
