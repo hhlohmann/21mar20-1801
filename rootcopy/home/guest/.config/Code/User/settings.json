@@ -2,5 +2,6 @@
     "editor.tabSize": 2,
     "editor.wordWrap": "bounded",
     "workbench.colorTheme": "Default Light+",
-    "workbench.iconTheme": "vs-minimal"
+    "workbench.iconTheme": "vs-minimal",
+    "editor.wrappingIndent": "indent"
 }
