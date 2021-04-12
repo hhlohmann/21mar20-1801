@@ -1,20 +1,35 @@
-history @50%
+history @50% 21apr12-1236 C Extensions: VS Code: Gherkin .feature highlighter stevejpurves.cucumber
+
+- Works just by installing
+- VS Marketplace: https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber
+- GitHub: https://github.com/euclidity/vscode-cucumber
+
+
 
 21apr12-1206 C ScriptForCreateAndDeploy
 
+
 - 21apr12-1232 G Categorise per prefix in logs
   - I Redundant but also cleary distinguishable types / workflows
-    - .bashrc
-      - "Must-haves" for all situations
-    - Tools (for /usr/local/bin)
-      - too small to make XZM
-      - too frequent changes to make XZM
-        - esp. as tool collection in one XZM
-    - Setttings (for programs from XZMs)
-      - on rootcopy more flexible than as part of XZM
-    - Extensions (for programs from XZMs)
-      - on rootcopy more flexible than as part of XZM
-- 21apr12-1231 G Capture redundant but easy to forget steps:
+    - ! With depending paths
+    - Types 
+      - .bashrc
+        - "Must-haves" for all situations
+        - Prefix: ".bashrc:"
+      - Tools (for /usr/local/bin)
+        - too small to make XZM
+        - too frequent changes to make XZM
+          - esp. as tool collection in one XZM
+          - Prefix: "Tools:"
+      - Setttings (for programs)
+        - For programs from "System" (Xfce / onboard) and user XZMs
+          - on rootcopy more flexible than as part of XZM
+          - Prefix: "Settings: PROGRAM:"
+      - Extensions (for programs)
+        - see Settings
+        - Prefix: "Extensions: PROGRAM:"
+- 21apr12-1231 G Capture redundant but easy to forget steps
+    - cf. "Applying" in README.md
     - cp rootcopy/$path/z $PORTDIR/rootcopy/$path/
       - = install for future system session
     - cp rootcopy/$path/z $path
