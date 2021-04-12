@@ -21,3 +21,4 @@ fi
 export TZ=Europe/Berlin
 alias diff='diff --color=always'
 setterm -inversescreen on
+export PROMPT_COMMAND='printf "\033]0;%s\007" "${PWD/#*\//}"'
