@@ -1,3 +1,23 @@
-history @100%
+history @50%
+
+21apr12-1206 C ScriptForCreateAndDeploy
+
+- 21apr12-1232 G Categorise per prefix in logs
+  - I Redundant but also cleary distinguishable types / workflows
+    - .bashrc
+      - "Must-haves" for all situations
+    - Tools (for /usr/local/bin)
+      - too small to make XZM
+      - too frequent changes to make XZM
+        - esp. as tool collection in one XZM
+    - Setttings (for programs from XZMs)
+      - on rootcopy more flexible than as part of XZM
+    - Extensions (for programs from XZMs)
+      - on rootcopy more flexible than as part of XZM
+- 21apr12-1231 G Capture redundant but easy to forget steps:
+    - cp rootcopy/$path/z $PORTDIR/rootcopy/$path/
+      - = install for future system session
+    - cp rootcopy/$path/z $path
+      - = install for current system session
 
 ()
