@@ -24,9 +24,10 @@ setterm -inversescreen on
 export PROMPT_COMMAND='printf "\033]0;%s\007" "${PWD/#*\//}"'
 
 exit(){
-  s="      #"
-  t="${BASH_SOURCE[1]}"
-  [ "$t" ] && u=" (exit call from $t)" 
+  local s="      #"
+  local t="${BASH_SOURCE[1]}"
+  local u
+  [ "$t" ] && u=" (exit call from $t)" || u=""
   echo -e "
   $s \033[1;31mSure to exit shell?\033[1;30m$u
   $s Abort exiting with Ctrl-C, confirm exiting with arbitrary key
